@@ -30,6 +30,20 @@ public class Palindrome {
 				break;
 
 			verifyLine(line);
+			
+			/* For example line : "qwerty 123321 ytrewq" will looks as
+			 * 
+			 * Enter your line: 
+			 * qwerty 123321 ytrewq 
+			 * You entered 3 words: qwerty 123321 ytrewq 
+			 * Reversed by words: ytrewq 123321 qwerty 
+			 * Reversed: qwerty 123321 ytrewq 
+			 * The line is Palindrome! 
+			 * The word1: qwerty is NOT Palindrome! 
+			 * The word2: 123321 is Palindrome! 
+			 * The word3: ytrewq is NOT Palindrome! 
+			 * Enter your line:
+			 */
 		}
 	}
 
